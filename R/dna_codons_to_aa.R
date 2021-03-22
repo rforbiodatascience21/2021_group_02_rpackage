@@ -1,4 +1,11 @@
 # R/dna_codons_to_aa.R
+
+
+#' DNA codon translater
+#' 
+#' Translates a DNA codon using the universial code
+#' 
+#' #' @return Amino Acid Oneletter Code, or * for stop codon
 dna_codons_to_aa <- function(codons){
   std_code_table <- c("TTT" = "F", "TCT" = "S", "TAT" = "Y", "TGT" = "C",
                       "TTC" = "F", "TCC" = "S", "TAC" = "Y", "TGC" = "C",

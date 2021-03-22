@@ -9,3 +9,6 @@ dna_codons_to_aa(codons)
 \description{
 Translates a DNA codon using the universial code
 }
+\details{
+#' @return Amino Acid Oneletter Code, or * for stop codon
+}
