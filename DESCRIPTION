@@ -1,11 +1,11 @@
-Package: lab08aSimpleRpackage
+Package: DNACoolKit
 Type: Package
-Title: What the Package Does (Title Case)
+Title: DNA toolkit
 Version: 0.1.0
-Author: Who wrote it
+Author: Alex, Asta and Emilie
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Package contain functions for generating random DNA-strings,
+seperation DNA strings into codons and translating the codons.
+License: WTFPL
 Encoding: UTF-8
 LazyData: true
