@@ -6,6 +6,7 @@
 #' Translates a DNA codon using the universial code
 #' 
 #' @return Amino Acid Oneletter Code, or * for stop codon
+#' @examples dna_codons_to_aa("ATG")
 #' @export
 dna_codons_to_aa <- function(codons){
   std_code_table <- c("TTT" = "F", "TCT" = "S", "TAT" = "Y", "TGT" = "C",
