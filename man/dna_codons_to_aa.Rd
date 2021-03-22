@@ -6,9 +6,9 @@
 \usage{
 dna_codons_to_aa(codons)
 }
+\value{
+Amino Acid Oneletter Code, or * for stop codon
+}
 \description{
 Translates a DNA codon using the universial code
-}
-\details{
-#' @return Amino Acid Oneletter Code, or * for stop codon
 }
