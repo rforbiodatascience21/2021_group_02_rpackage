@@ -4,7 +4,7 @@
 #' 
 #' Creates a DNA sequence of \code{"l"} number of random bases 
 #' 
-#' @return A random DNA sequence with length \code{"l"}
+#' @return A string of random DNA sequence with length \code{"l"}
 
 random_dna <- function(l){
   nucleotides <- sample(c("A", "T", "G", "C"), size = l, replace = TRUE)
