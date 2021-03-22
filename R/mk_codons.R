@@ -1,3 +1,10 @@
+#' DNA codon maker/separator
+#' 
+#' Takes a string of DNA bases and separates into codons/triplets
+#' 
+#' @return DNA sequence, start position
+#' @examples mk_codons("AGTCGATAGTG", s=1)
+#' @export
 
 # R/mk_codons.R
 mk_codons <- function(dna, s = 1){
