@@ -4,8 +4,8 @@ Title: DNA toolkit
 Version: 0.1.0
 Author: Alex, Asta and Emilie
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Package contain functions for generating random DNA-strings,
-seperation DNA strings into codons and translating the codons.
+Description: Package contain functions for generating random DNA-strings, seperation DNA strings into codons and translating the codons.
 License: WTFPL
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
